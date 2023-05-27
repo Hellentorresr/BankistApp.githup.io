@@ -9,9 +9,10 @@
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
       rel="stylesheet"
-    />
+      />
     <link rel="stylesheet" href="style.css" />
     <title>Bankist | When Banking meets Minimalist</title>
+     <script defer src="script.js"></script>
   </head>
   <body>
     <header class="header">
@@ -20,8 +21,7 @@
           src="img/logo.png"
           alt="Bankist logo"
           class="nav__logo"
-          id="logo"
-        />
+          id="logo"/>
         <ul class="nav__links">
           <li class="nav__item">
             <a class="nav__link" href="#section--1">Features</a>
@@ -33,9 +33,8 @@
             <a class="nav__link" href="#section--3">Testimonials</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link nav__link--btn btn--show-modal" href="#"
-              >Open account</a
-            >
+            <a class="nav__link nav__link--btn btn--show-modal" href="#">Open
+              account</a>
           </li>
         </ul>
       </nav>
@@ -54,7 +53,7 @@
           src="img/hero.png"
           class="header__img"
           alt="Minimalist bank items"
-        />
+          />
       </div>
     </header>
 
@@ -72,7 +71,7 @@
           data-src="img/digital.jpg"
           alt="Computer"
           class="features__img lazy-img"
-        />
+          />
         <div class="features__feature">
           <div class="features__icon">
             <svg>
@@ -82,9 +81,7 @@
           <h5 class="features__header">100% digital bank</h5>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
-            sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
-            debitis ducimus.
-          </p>
+            sint quos? Accusantiu-
         </div>
 
         <div class="features__feature">
@@ -104,15 +101,13 @@
           src="img/grow-lazy.jpg"
           data-src="img/grow.jpg"
           alt="Plant"
-          class="features__img lazy-img"
-        />
+          class="features__img lazy-img"/>
 
         <img
           src="img/card-lazy.jpg"
           data-src="img/card.jpg"
           alt="Credit card"
-          class="features__img lazy-img"
-        />
+          class="features__img lazy-img"/>
         <div class="features__feature">
           <div class="features__icon">
             <svg>
@@ -137,12 +132,13 @@
         </h3>
       </div>
 
+      <!--The container for the taps and content related to this seccion-->
       <div class="operations">
+        <!--The button of the taps or cards-->
         <div class="operations__tab-container">
           <button
-            class="btn operations__tab operations__tab--1 operations__tab--active"
-            data-tab="1"
-          >
+            class="btn operations__tab operations__tab--1
+            operations__tab--active" data-tab="1">
             <span>01</span>Instant Transfers
           </button>
           <button class="btn operations__tab operations__tab--2" data-tab="2">
@@ -152,9 +148,10 @@
             <span>03</span>Instant Closing
           </button>
         </div>
+
+        <!--First tap or card-->
         <div
-          class="operations__content operations__content--1 operations__content--active"
-        >
+          class="operations__content operations__content--1 operations__content--active">
           <div class="operations__icon operations__icon--1">
             <svg>
               <use xlink:href="img/icons.svg#icon-upload"></use>
@@ -171,6 +168,7 @@
           </p>
         </div>
 
+        <!--Second tap or card-->
         <div class="operations__content operations__content--2">
           <div class="operations__icon operations__icon--2">
             <svg>
@@ -187,6 +185,8 @@
             anim id est laborum.
           </p>
         </div>
+
+        <!--Third tap or card-->
         <div class="operations__content operations__content--3">
           <div class="operations__icon operations__icon--3">
             <svg>
@@ -204,6 +204,7 @@
           </p>
         </div>
       </div>
+
     </section>
 
     <section class="section" id="section--3">
@@ -227,7 +228,7 @@
               autem esse non voluptatem saepe provident nihil molestiae.
             </blockquote>
             <address class="testimonial__author">
-              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <img src="img/user-1.jpg" alt class="testimonial__photo" />
               <h6 class="testimonial__name">Aarav Lynn</h6>
               <p class="testimonial__location">San Francisco, USA</p>
             </address>
@@ -247,7 +248,7 @@
               deserunt exercitationem deleniti.
             </blockquote>
             <address class="testimonial__author">
-              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <img src="img/user-2.jpg" alt class="testimonial__photo" />
               <h6 class="testimonial__name">Miyah Miles</h6>
               <p class="testimonial__location">London, UK</p>
             </address>
@@ -268,7 +269,7 @@
               alias reiciendis, perferendis facere.
             </blockquote>
             <address class="testimonial__author">
-              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <img src="img/user-3.jpg" alt class="testimonial__photo" />
               <h6 class="testimonial__name">Francisco Gomes</h6>
               <p class="testimonial__location">Lisbon, Portugal</p>
             </address>
@@ -285,6 +286,7 @@
       </div>
     </section>
 
+   <!-- last section -->
     <section class="section section--sign-up">
       <div class="section__title">
         <h3 class="section__header">
@@ -295,6 +297,7 @@
       <button class="btn btn--show-modal">Open your free account today!</button>
     </section>
 
+    <!-- Footer section -->
     <footer class="footer">
       <ul class="footer__nav">
         <li class="footer__item">
@@ -325,10 +328,8 @@
         <a
           class="footer__link twitter-link"
           target="_blank"
-          href="https://twitter.com/jonasschmedtman"
-          >Jonas Schmedtmann</a
-        >. Use for learning or your portfolio. Don't use to teach. Don't claim
-        as your own product.
+          href="https://twitter.com/jonasschmedtman"></a>Learning DOM manipulation, Hellen Torres
+          || Teacher: Jonas Schmedtmann
       </p>
     </footer>
 
@@ -348,8 +349,9 @@
         <button class="btn">Next step &rarr;</button>
       </form>
     </div>
+
     <div class="overlay hidden"></div>
 
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
   </body>
 </html>
